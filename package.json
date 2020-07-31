@@ -4,9 +4,10 @@
     "buffer": "^5.6.0",
     "filereader": "^0.10.3",
     "http": "^0.0.1-security",
-    "js-file-download": "^0.4.12",
-    "node-static": "^0.7.11",
     "tar": "^6.0.2"
+  },
+  "devDependencies": {
+    "node-static": "^0.7.11"
   },
   "description": "utility to get and extract a remote tar file",
   "version": "1.0.0",
