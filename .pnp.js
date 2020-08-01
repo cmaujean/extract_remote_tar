@@ -30,10 +30,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "fallbackPool": [
       [
-        "axios",
-        "npm:0.19.2"
-      ],
-      [
         "buffer",
         "npm:5.6.0"
       ],
@@ -44,10 +40,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [
         "http",
         "npm:0.0.1-security"
-      ],
-      [
-        "js-file-download",
-        "npm:0.4.12"
       ],
       [
         "node-static",
@@ -65,25 +57,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["axios", "npm:0.19.2"],
             ["buffer", "npm:5.6.0"],
             ["filereader", "npm:0.10.3"],
             ["http", "npm:0.0.1-security"],
-            ["js-file-download", "npm:0.4.12"],
             ["node-static", "npm:0.7.11"],
             ["tar", "npm:6.0.2"]
           ],
           "linkType": "SOFT",
-        }]
-      ]],
-      ["axios", [
-        ["npm:0.19.2", {
-          "packageLocation": "./.yarn/cache/axios-npm-0.19.2-e4e8599895-bad346deea.zip/node_modules/axios/",
-          "packageDependencies": [
-            ["axios", "npm:0.19.2"],
-            ["follow-redirects", "npm:1.5.10"]
-          ],
-          "linkType": "HARD",
         }]
       ]],
       ["base64-js", [
@@ -124,35 +104,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["debug", [
-        ["virtual:bde6f435769d1a96c3f371d2e8a88314847816fb841f758b3628da60329c36f988ca42f6984dc53bb31dd306522878e1e5d568caeca7af42e4f19b238d6261b3#npm:3.1.0", {
-          "packageLocation": "./.yarn/$$virtual/debug-virtual-f2284580f9/0/cache/debug-npm-3.1.0-9f0accb99b-1295acd5e0.zip/node_modules/debug/",
-          "packageDependencies": [
-            ["debug", "virtual:bde6f435769d1a96c3f371d2e8a88314847816fb841f758b3628da60329c36f988ca42f6984dc53bb31dd306522878e1e5d568caeca7af42e4f19b238d6261b3#npm:3.1.0"],
-            ["ms", "npm:2.0.0"],
-            ["supports-color", null]
-          ],
-          "packagePeers": [
-            "supports-color"
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["filereader", [
         ["npm:0.10.3", {
           "packageLocation": "./.yarn/cache/filereader-npm-0.10.3-cd4d2419a6-bee786347c.zip/node_modules/filereader/",
           "packageDependencies": [
             ["filereader", "npm:0.10.3"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["follow-redirects", [
-        ["npm:1.5.10", {
-          "packageLocation": "./.yarn/cache/follow-redirects-npm-1.5.10-bde6f43576-6e58e02c31.zip/node_modules/follow-redirects/",
-          "packageDependencies": [
-            ["follow-redirects", "npm:1.5.10"],
-            ["debug", "virtual:bde6f435769d1a96c3f371d2e8a88314847816fb841f758b3628da60329c36f988ca42f6984dc53bb31dd306522878e1e5d568caeca7af42e4f19b238d6261b3#npm:3.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -181,15 +137,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/ieee754-npm-1.1.13-a57522ba12-9ef12932e8.zip/node_modules/ieee754/",
           "packageDependencies": [
             ["ieee754", "npm:1.1.13"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["js-file-download", [
-        ["npm:0.4.12", {
-          "packageLocation": "./.yarn/cache/js-file-download-npm-0.4.12-60d6f838a7-35470d0d90.zip/node_modules/js-file-download/",
-          "packageDependencies": [
-            ["js-file-download", "npm:0.4.12"]
           ],
           "linkType": "HARD",
         }]
@@ -242,15 +189,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["ms", [
-        ["npm:2.0.0", {
-          "packageLocation": "./.yarn/cache/ms-npm-2.0.0-9e1101a471-1a230340cc.zip/node_modules/ms/",
-          "packageDependencies": [
-            ["ms", "npm:2.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["node-static", [
         ["npm:0.7.11", {
           "packageLocation": "./.yarn/cache/node-static-npm-0.7.11-dc4512af59-30ff261984.zip/node_modules/node-static/",
@@ -294,11 +232,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["tartest", "workspace:."],
-            ["axios", "npm:0.19.2"],
             ["buffer", "npm:5.6.0"],
             ["filereader", "npm:0.10.3"],
             ["http", "npm:0.0.1-security"],
-            ["js-file-download", "npm:0.4.12"],
             ["node-static", "npm:0.7.11"],
             ["tar", "npm:6.0.2"]
           ],
