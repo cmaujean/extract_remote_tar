@@ -4,7 +4,7 @@
     "buffer": "^5.6.0",
     "filereader": "^0.10.3",
     "http": "^0.0.1-security",
-    "tar": "^6.0.2"
+    "tar": "^6.1.9"
   },
   "devDependencies": {
     "node-static": "^0.7.11"
